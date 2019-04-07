@@ -16,7 +16,8 @@ namespace fifth
             //Console.WriteLine(Problem2.EvenFibonacciNumbers());
             //Console.WriteLine(Problem3.LargestPrimeFactor());
             //Console.WriteLine(Problem4.LargestPalindromeProduct());
-            Console.WriteLine(Problem5.SmallestMultiple());
+            //Console.WriteLine(Problem5.SmallestMultiple());
+            Console.WriteLine(Problem6.SumSquareDifference());
             // Console.WriteLine(Problem16.SumOfNumber());
 
 
