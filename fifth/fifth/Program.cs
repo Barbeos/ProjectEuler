@@ -24,7 +24,8 @@ namespace fifth
             //Console.WriteLine(Problem10.SummationOfPrimes());
             //Console.WriteLine(Problem11.LargestProductInAGrid());
             //Console.WriteLine(Problem12.HighlyDivisibleTriangularNumber());
-            Console.WriteLine(Problem13.LargeSum());
+            //Console.WriteLine(Problem13.LargeSum());
+            Console.WriteLine(Problem14.LongestCollatzSequence());
             // Console.WriteLine(Problem16.SumOfNumber());
 
 
