@@ -14,6 +14,7 @@ namespace fifth._11_20
             BigInteger result = new BigInteger(0); ;
             BigInteger count = new BigInteger(1);
             BigInteger n = new BigInteger(0);
+            BigInteger temp = new BigInteger(1);
 
             for (BigInteger i = 2; i < 1000000; i++)
             {
@@ -30,8 +31,12 @@ namespace fifth._11_20
                     if (BigInteger.Compare(n, 1) == 0)
                         break;                        
                 }
-                if (count > result)
-                    result = count;
+                if (count > temp)
+                {
+                    result = i;
+                    temp = count;
+                }
+                    
                 count = 1;
             }
             return result;
