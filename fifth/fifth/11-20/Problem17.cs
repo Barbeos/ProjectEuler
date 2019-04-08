@@ -10,7 +10,6 @@ namespace fifth._11_20
     {
         public static int NumberLetterCounts()
         {
-
             String[] ones = new String[] {
                             "one", "two", "three",
                             "four", "five", "six",
@@ -23,7 +22,6 @@ namespace fifth._11_20
                            "twenty", "thirty", "forty", "fifty",
                            "sixty", "seventy", "eighty", "ninety" };
 
-
             int result = 0;
 
             int sumOfOnes = NumberLengths(ones);
@@ -31,8 +29,6 @@ namespace fifth._11_20
             int sumOfTeens = NumberLengths(teens);
 
             int sumOfTens = NumberLengthsTens(tens, sumOfOnes);
-
-            
 
             result = sumOfOnes + sumOfTeens + sumOfTens;
 
@@ -66,10 +62,5 @@ namespace fifth._11_20
                 hundredsSum += (numberLength[i] + "hundredand").Length * 100 + sum - 3;
             return hundredsSum;
         }
-
-
-
-
-
     }
 }
