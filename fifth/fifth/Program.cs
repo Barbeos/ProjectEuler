@@ -21,7 +21,8 @@ namespace fifth
             //Console.WriteLine(Problem7.ThousandAndOnePrime());
             //Console.WriteLine(Problem8.LargestProductInAeries());
             //Console.WriteLine(Problem9.SpecialPythagoreanTriplet());
-            Console.WriteLine(Problem10.SummationOfPrimes());
+            //Console.WriteLine(Problem10.SummationOfPrimes());
+            Console.WriteLine(Problem11.LargestProductInAGrid());
             // Console.WriteLine(Problem16.SumOfNumber());
 
 
