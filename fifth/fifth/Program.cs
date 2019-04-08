@@ -30,7 +30,8 @@ namespace fifth
             //Console.WriteLine(Problem16.SumOfNumber());
             //Console.WriteLine(Problem17.NumberLetterCounts());
             //Console.WriteLine(Problem18.MaximumPathSumI());
-            Console.WriteLine(Problem19.CountingSundays());
+            //Console.WriteLine(Problem19.CountingSundays());
+            Console.WriteLine(Problem20.FactorialDigitSum());
 
 
             Console.ReadKey();
