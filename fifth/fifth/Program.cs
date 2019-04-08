@@ -18,7 +18,8 @@ namespace fifth
             //Console.WriteLine(Problem4.LargestPalindromeProduct());
             //Console.WriteLine(Problem5.SmallestMultiple());
             //Console.WriteLine(Problem6.SumSquareDifference());
-            Console.WriteLine(Problem7.ThousandAndOnePrime());
+            //Console.WriteLine(Problem7.ThousandAndOnePrime());
+            Console.WriteLine(Problem8.LargestProductInAeries());
             // Console.WriteLine(Problem16.SumOfNumber());
 
 
