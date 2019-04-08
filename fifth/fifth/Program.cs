@@ -29,7 +29,8 @@ namespace fifth
             //Console.WriteLine(Problem15.LatticePaths());
             //Console.WriteLine(Problem16.SumOfNumber());
             //Console.WriteLine(Problem17.NumberLetterCounts());
-            Console.WriteLine(Problem18.MaximumPathSumI());
+            //Console.WriteLine(Problem18.MaximumPathSumI());
+            Console.WriteLine(Problem19.CountingSundays());
 
 
             Console.ReadKey();
