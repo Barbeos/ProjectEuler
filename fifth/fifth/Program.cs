@@ -28,7 +28,8 @@ namespace fifth
             //Console.WriteLine(Problem14.LongestCollatzSequence());
             //Console.WriteLine(Problem15.LatticePaths());
             //Console.WriteLine(Problem16.SumOfNumber());
-            Console.WriteLine(Problem17.NumberLetterCounts());
+            //Console.WriteLine(Problem17.NumberLetterCounts());
+            Console.WriteLine(Problem18.MaximumPathSumI());
 
 
             Console.ReadKey();
