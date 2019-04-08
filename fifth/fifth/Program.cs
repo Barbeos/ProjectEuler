@@ -26,8 +26,8 @@ namespace fifth
             //Console.WriteLine(Problem12.HighlyDivisibleTriangularNumber());
             //Console.WriteLine(Problem13.LargeSum());
             //Console.WriteLine(Problem14.LongestCollatzSequence());
-            Console.WriteLine(Problem15.LatticePaths());
-            // Console.WriteLine(Problem16.SumOfNumber());
+            //Console.WriteLine(Problem15.LatticePaths());
+            //Console.WriteLine(Problem16.SumOfNumber());
 
 
             Console.ReadKey();
