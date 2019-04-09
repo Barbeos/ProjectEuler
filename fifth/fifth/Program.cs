@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using fifth._1_10;
 using fifth._11_20;
+using fifth._21_30;
 
 namespace fifth
 {
@@ -25,13 +26,17 @@ namespace fifth
             //Console.WriteLine(Problem11.LargestProductInAGrid());
             //Console.WriteLine(Problem12.HighlyDivisibleTriangularNumber());
             //Console.WriteLine(Problem13.LargeSum());
-            //Console.WriteLine(Problem14.LongestCollatzSequence());
+            //Console.WriteLine(Problem14.Calc(1000000));                
             //Console.WriteLine(Problem15.LatticePaths());
             //Console.WriteLine(Problem16.SumOfNumber());
             //Console.WriteLine(Problem17.NumberLetterCounts());
             //Console.WriteLine(Problem18.MaximumPathSumI());
             //Console.WriteLine(Problem19.CountingSundays());
-            Console.WriteLine(Problem20.FactorialDigitSum());
+            //Console.WriteLine(Problem20.FactorialDigitSum());
+
+            //Console.WriteLine(Problem21.AmicableNumbers());
+
+
 
 
             Console.ReadKey();

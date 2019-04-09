@@ -9,37 +9,40 @@ namespace fifth._11_20
 {
     class Problem14
     {
-        internal static BigInteger LongestCollatzSequence()
+        public static int result, lon = 0;
+
+        public static long Calc(int limit)
         {
-            BigInteger result = new BigInteger(0); ;
-            BigInteger count = new BigInteger(1);
-            BigInteger n = new BigInteger(0);
-            BigInteger temp = new BigInteger(1);
-
-            for (BigInteger i = 2; i < 1000000; i++)
+            Parallel.For(1, limit, i =>
             {
-                n = i;
-                while (true)
-                {
-                    if (n.IsEven)
-                        n = BigInteger.Divide(n, 2);
-                    else
-                        n = BigInteger.Add(BigInteger.Multiply(n, 3),1);
-                    
-                    count++;
-
-                    if (BigInteger.Compare(n, 1) == 0)
-                        break;                        
-                }
-                if (count > temp)
+                //Console.WriteLine(i);
+                if (i < result || (i & 1) == 0)
+                    return;
+                int check = CheckNum(i);
+                if (check > lon)
                 {
                     result = i;
-                    temp = count;
+                    lon = check;
                 }
-                    
-                count = 1;
-            }
+            });
+            //Console.WriteLine("Longest chain: " + val + " chain: " + lon);
             return result;
+        }
+
+        public static int CheckNum(long num)
+        {
+
+            int chain = 0;
+            while (num > 1)
+            {
+                if ((num & 1) == 0)
+                    num = num / 2;
+                else
+                    num = num * 3 + 1;
+                chain++;
+            }
+            return chain;
         }
     }
 }
+
