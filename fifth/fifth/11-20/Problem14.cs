@@ -9,14 +9,15 @@ namespace fifth._11_20
 {
     class Problem14
     {
-        public static int result, lon = 0;
+        public static int lon = 0;
 
         public static long Calc(int limit)
         {
+            int result = 0;
             Parallel.For(1, limit, i =>
             {
                 //Console.WriteLine(i);
-                if (i < result || (i & 1) == 0)
+                if ((i & 1) == 0)
                     return;
                 int check = CheckNum(i);
                 if (check > lon)
@@ -25,6 +26,7 @@ namespace fifth._11_20
                     lon = check;
                 }
             });
+            //result = lon = 0;
             //Console.WriteLine("Longest chain: " + val + " chain: " + lon);
             return result;
         }

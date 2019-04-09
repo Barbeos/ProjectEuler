@@ -26,7 +26,20 @@ namespace fifth
             //Console.WriteLine(Problem11.LargestProductInAGrid());
             //Console.WriteLine(Problem12.HighlyDivisibleTriangularNumber());
             //Console.WriteLine(Problem13.LargeSum());
-            //Console.WriteLine(Problem14.Calc(1000000));                
+
+
+
+
+            var watch = new System.Diagnostics.Stopwatch();
+            watch.Start();
+
+            for (int i = 0; i< 1; i++)
+            { 
+                Console.WriteLine(Problem14.Calc(1000000));
+            }
+
+
+            Console.WriteLine($"Execution Time: {watch.ElapsedMilliseconds} ms");
             //Console.WriteLine(Problem15.LatticePaths());
             //Console.WriteLine(Problem16.SumOfNumber());
             //Console.WriteLine(Problem17.NumberLetterCounts());
